@@ -43,7 +43,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  */
 [_LOWER] = LAYOUT_ortho_4x12( \
   KC_TAB,  KC_EXLM,  KC_AT,  KC_HASH,  KC_DLR,  KC_PERC,  _______,  KC_HOME,  KC_UP,  KC_END,  _______,  _______,\
-  _______, KC_CIRC, KC_AMPR, KC_ASTR, KC_EQL,  _______, _______, KC_LEFT, KC_DOWN, KC_RIGHT, _______,  _______, \
+  _______, KC_CIRC, KC_AMPR, KC_ASTR, KC_EQL,  KC_LBRC, KC_RBRC, KC_LEFT, KC_DOWN, KC_RIGHT, _______,  _______, \
   _______, _______, _______, _______, _______, _______, _______, _______, LCTL(KC_INS), _______, _______, _______, \
   _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______ \
 ),
